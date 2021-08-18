@@ -24,7 +24,7 @@ export default class SampleClassComponent extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <>
         <h1>Componente de Classe</h1>
         <select onChange={this.handleSwitch}>
           <option value="Oi! 😄">Oi</option>
@@ -32,7 +32,7 @@ export default class SampleClassComponent extends React.Component {
         </select>
         <br />
         <input type="button" value="Alerta" onClick={this.alertMessage} />
-      </div>
+      </>
     );
   }
 }

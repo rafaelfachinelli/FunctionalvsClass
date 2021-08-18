@@ -14,7 +14,7 @@ export default function SampleFunctionalComponent() {
   };
 
   return (
-    <div className="App">
+    <>
       <h1>Componente Funcional</h1>
       <select onChange={handleSwitch}>
         <option value="Oi! 😄">Oi</option>
@@ -22,6 +22,6 @@ export default function SampleFunctionalComponent() {
       </select>
       <br />
       <input type="button" value="Alerta" onClick={alertMessage} />
-    </div>
+    </>
   );
 }
